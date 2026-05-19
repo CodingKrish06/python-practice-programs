@@ -1,2 +1,2 @@
-message = input("Enter the welcome message:")
-print(message)
+Message = input("Enter the welcome message:")
+print(Message)
