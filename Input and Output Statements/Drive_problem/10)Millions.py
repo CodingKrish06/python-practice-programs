@@ -1,0 +1,7 @@
+dead = int(input("Enter number of dead people:"))
+injured = int(input("Enter number of injured people:"))
+safe = int(input("Enter number of safe people:"))
+print("1)Dead:",dead,sep="")
+print("2)Injured:",injured,sep="")
+print("3)Safe:",safe,sep="")
+print("Please help the people who are suffering!!!")
