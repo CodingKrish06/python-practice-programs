@@ -1,5 +1,0 @@
-street = input("Enteer street name:")
-city = input("Enteer city:")
-state = input("Enter state:")
-country = input("Enter country:")
-print(street + "\n" + city + "\n" + state + "\n" + country)

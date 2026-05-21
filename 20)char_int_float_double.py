@@ -1,8 +1,0 @@
-char = input("Enter a character:")
-integer = int(input("Enter an integer value:"))
-floating = float(input("Enter a float value:"))
-double_value = float(input("Enter a double value:"))
-print("Type of char:",type(char))
-print("Type of int:",type(integer))
-print("Type of float:",type(floating))
-print("Type of double:",type(double_value))
