@@ -46,6 +46,7 @@ if first_digit == last_digit:
 else:
     print("First and Last digits are not equal")
 
+# 
 
 mark = int(input("Enter a mark:"))
 if mark <= 90:
@@ -99,6 +100,18 @@ unit 500
 450 - 100 -> 350
 
 """ 
+
+units = int(input())
+bill = 0
+if units <= 100:
+    bill = 0
+elif units <= 300:
+    bill = (units - 100) * 5
+elif units <= 500:
+    bill = (200) * 5 + (units - 300) * 10
+else:
+    bill = (200) * 5 + (200)*10 + (units-500) * 25+500
+print(bill)
 # year based 5)
 
 n = int(input())
