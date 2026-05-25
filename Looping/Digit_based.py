@@ -1,5 +1,5 @@
 # 13)Remove all zeroes from a given number
-num = input()
+num = int(input())
 result = ""
 i = 0
 while i < len(num):
