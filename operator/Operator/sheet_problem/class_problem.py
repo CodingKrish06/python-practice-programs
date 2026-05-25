@@ -125,3 +125,166 @@ month == 2
 
 else: 30
 """
+
+# range(start ,  stop, step)
+
+l =range(2,10,3)
+for i in l:
+    print(i,end = ' ')
+
+# 2)
+ 
+n = int(input())
+sum = 0
+for i in range(1,n+1):
+    sum += 1
+print(sum)
+
+# 3)Factor number
+
+n = int(input())
+fact = 0
+for i in range(1, n+1):
+    fact *= i
+print(fact)
+
+# 4) Faboserie
+
+n = int(input())
+a = 0
+b = 1
+print(a,b,end =" ")
+for i in range(2,n+1):
+    c =a + b
+    print(c , end = " ")
+    a = b
+    b = c  
+    # 0 1 1 2 3 5 8 13
+
+#6) prime number
+
+n = int(input())
+count = 0 
+for i in range(1,n+1):
+    """
+    (2,n//2)
+    """
+    if n%i == 0 :
+        count += 1
+if count == 2:
+    print("Prime ")
+else:
+    print("Not prime")
+
+
+
+#  given number is fact
+n = int(input())
+for i in range(1,n+1):
+    if n%i == 0:
+        print(i, end = " ")
+
+#  write a program print alpehate from a to z
+
+# 25/05/2026
+
+# 1)while loop
+
+n = int(input())
+count= 0
+if n==0:
+    count = 1
+elif n < 0:
+    n = -n
+while n!=0:
+    count += 1
+    n//=10
+print(count)
+
+# 2)Reveser
+
+n = int(input())
+res = 0 
+while n!=0:
+    last = n % 10 
+    res = res * 10 + last
+    n//=10
+print(res)
+
+# 3)frist digit to get
+
+n =int(input())
+while n > 9:
+    n //= 10
+print(n)
+
+# 4)give number check the number how many time reptred
+
+n = int(input())
+digit = int(input())
+count = 0
+while n!=0:
+    if n%10 == digit:
+        count += 1
+    n//=10
+print(count)
+
+# 5)check the number ascender order or descend order
+
+n = int(input())
+prev = 10
+while n!= 0 :
+    curr = n%10
+    if prev < curr:
+        print(False)
+        # exit()
+        break
+    prev = curr
+    n //= 10
+print(True)
+# output :1234 True
+
+# 6)Find the maxima  number in give number
+'''
+n =int(input())
+maximum = n[0]
+i = 0
+while i < len(n):
+    if n[i] > maximum:
+        maximum = n[i]
+    i += 1
+print("Maximum number:",maximum)
+
+'''
+n =int(input())
+max = 0
+while n!=0:
+    if n%10 > max:
+        max = n% 10
+    n //= 10
+print(max)
+
+
+# 7)Check whether numbers are Even , odd ,or mixed
+
+n = int(input())
+even_count = 0
+odd_count = 0 
+while n!= 0:
+    if (n%10)%2 == 0:
+        even += 1
+    else:
+        odd += 1
+if even > 0 and odd == 0:
+    print("Even Number")
+elif even == 0 and odd > 0:
+    print("Odd Number")
+else:
+    print("Mixed number")
+
+
+
+
+
+
+
