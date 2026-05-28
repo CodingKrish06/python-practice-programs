@@ -18,3 +18,14 @@ N = int(input("Enter a power:"))
 c = X ** N
 print(c)
 
+#  3)
+
+
+
+# 4) Simple Interest
+
+principal_amount = int(input())
+Year = int(input())
+rate_interest = float(input())
+Simple_interest = principal_amount * Year * rate_interest / 100
+print(f"{Simple_interest:.2f}")
