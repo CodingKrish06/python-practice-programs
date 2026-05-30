@@ -20,7 +20,9 @@ print(c)
 
 #  3)
 
-
+n = int(input())
+digit_sum = (n // 10) + (n % 10)
+print(str(digit_sum))
 
 # 4) Simple Interest
 
