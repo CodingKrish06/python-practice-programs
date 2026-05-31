@@ -22,7 +22,7 @@ print(c)
 
 n = int(input())
 digit_sum = (n // 10) + (n % 10)
-print(str(digit_sum))
+print("Alice must go in path-" + str(digit_sum))
 
 # 4) Simple Interest
 
@@ -31,3 +31,52 @@ Year = int(input())
 rate_interest = float(input())
 Simple_interest = principal_amount * Year * rate_interest / 100
 print(f"{Simple_interest:.2f}")
+
+# 5)Midpoint of a Line Segment
+
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+mid_x = (x1 + x2) / 2
+mid_y = (y1 + y2) / 2
+print(f"Binoy's house is located at ({mid_x},{mid_y})")
+
+# 6)
+
+students = int(input())
+teams = int(input())
+per_team = students // teams
+left_out = students % teams
+print(f"The number of students in each team is {per_team} and left out is {left_out}")
+
+# 7)
+
+books = int(input())
+students = int(input())
+each_student = books // students
+remaining = books % students
+print(f"Each student gets {each_student} books and {remaining} books remain in the library")
+
+# 8)
+
+n = int(input())
+teams = n // 11
+referes = n % 11 
+print(teams)
+print(referes)
+
+# 9)
+
+N = int(input())
+X = int(input())
+Y = int(input())
+Z = int(input())
+A = (Z - N * Y) // (X - Y)
+B = N - A
+print(A)
+print(B)
+
+# 10)
+
+
