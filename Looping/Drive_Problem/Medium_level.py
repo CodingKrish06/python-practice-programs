@@ -9,6 +9,8 @@ for i in range(n):
         amt += i
     else:
         iv += 1
+print(i)
+print(iv)
         
 
 # 2)Digital Root Without Formula
