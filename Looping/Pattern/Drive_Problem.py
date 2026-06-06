@@ -34,7 +34,7 @@ for i in range(n):
             print(" ",end=" ")
     print()
 
-# 22)
+# 22) 
 
 n = int(input())
 for i in range(n):

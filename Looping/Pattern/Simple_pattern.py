@@ -1,4 +1,4 @@
-# 1)
+# 1)Solid Square Star Pattern
 
 n =int(input())
 for i in range(1,n+1):
@@ -6,7 +6,7 @@ for i in range(1,n+1):
         print("*",end =' ')
     print()
 
-# 2)
+# 2) Hollow Square
 
 n= int(input())
 for i in range(1,n+1):
@@ -17,7 +17,7 @@ for i in range(1,n+1):
             print(" ",end=' ')
     print()
 
-# 3)
+# 3)Hollow Square with X
 
 n = int(input())
 for i in range(1,n+1):
@@ -39,7 +39,7 @@ for i in range(1,n+1):
             print(" ", end = " ")
     print()
 
-# 5)Reverse rightangle Trianlge
+# 5)Inverted Right Triangle
 
 n = int(input())
 for i in range(1,n+1):
@@ -62,7 +62,7 @@ for i in range(1,n+1):
             print(" ",end=" ")
     print()
 
-# 7)
+# 7) Diamond
 
 n = int(input())
 for i in range(1,n+1):
@@ -84,7 +84,7 @@ for i in range(2,n+1):
     print()
 
 
-# 8)
+# 8)Hourglass Star Pattern / X Triangle Pattern
 
 n = int(input())
 for i in range(1, n+1):
@@ -102,7 +102,7 @@ for i in range(1,n+1):
             print("",end = " ")
     print()
 
-# 9) 
+# 9) Full Pyramid Star Pattern
 
 n = int(input())
 for i in range(n):
@@ -113,7 +113,7 @@ for i in range(n):
     print()
 
 
-# 10)
+# 10)Inverted Full Pyramid Star Pattern
 
 n =int(input())
 for i in range(n-1,-1,-1):
@@ -124,7 +124,7 @@ for i in range(n-1,-1,-1):
     print()
 
 
-# 11)
+# 11)Hollow Pyramid Star Pattern
 
 n = int(input())
 for i in range(1,n+1):
@@ -137,7 +137,7 @@ for i in range(1,n+1):
             print(" ",end = "")
     print()
 
-# 12)
+# 12)Number Triangle Pattern
 
 n =int(input())
 for i in range(1,n+1):
@@ -145,6 +145,6 @@ for i in range(1,n+1):
         print(j,end=" ")
     print()
 
-# 
+
 
 
