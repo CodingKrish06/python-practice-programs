@@ -69,3 +69,4 @@ for i in range(len(str)):
             first = i
         last = i
 print(first,last)
+
